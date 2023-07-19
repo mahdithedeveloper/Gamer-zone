@@ -173,8 +173,105 @@ nav{
     font-size:2rem ;
     font-weight: 700;
 }
-#funny-videos{
+.funny-videos{
     color: #FF42A5;
+}
+/* play games section */
+.play-games{
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+    text-align: left;
+}
+#game-img-top{
+    width: 550px;
+    height: 550px;
+}
+#game-img-bottom{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -150px;
+    left: 420px;
+}
+.play-games-info{
+    width: 450px;
+    margin-right: 60px;
+}
+.play-games-info > h3{
+    font-size: 2rem;
+}
+.game-catagories{
+   border: 3px solid rgb(179, 179, 179);
+    padding: 20px;
+    height: 240px;
+    
+    background-color: rgb(243, 238, 231)
+}
+.all-games{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.catagory button{
+    
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    margin: 20px;
+    border-radius: 50px;
+    
+    color: #0B0223;
+    
+    font-size: 1rem;
+    
+    font-weight: 600;
+
+}
+.catagory button:hover{
+    border: 2px solid rgb(246, 53, 53);
+
+}
+footer{
+    height: 500px;
+    background-color: #0B0223;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top{
+    color: #FFF;
+    margin-left: 235px;
+    
+}
+.footer-links{
+    
+    text-align: center;
+}
+.footer-links ul{
+    display: flex;
+    gap: 20px;
+}
+.footer-links ul li{
+    color: #FFF;
+   text-decoration: none;
+   list-style: none;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+    
+
+.social-links-footer a img{
+    padding-left: 20px;
+    padding-top: 30px;
 }
 
 
@@ -226,7 +323,47 @@ nav{
     .game-cards{
         flex-direction: column;
     }
+    .play-games{
+    
+        flex-direction: column;
+    }
+    #game-img-top{
+        width: 300px;
+        height: 300px;
+
+    }
+    #game-img-bottom{
+        height: 100px;
+        width: 100px;
+        left: 240px;
+        top: -60px;
+    }
+    .play-games-info{
+        width: 300px;
+
+    }
+.catagory button{
+    width: 165px;
+    margin: 10px ;
 }
+.game-catagories{
+    margin-top: 50px;
+    height: 530px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+}
+}
+.footer-contant{
+    width: 300px;
+}
+
 /* for tablets */
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -261,4 +398,12 @@ nav{
      .game-cards{
         flex-wrap: wrap;
      }
+     .play-games{
+    
+        flex-direction: column;
+}
+.game-catagories{
+    margin-top: 50px;
+    height: 430px;
+}
 }
