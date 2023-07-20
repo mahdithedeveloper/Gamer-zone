@@ -364,7 +364,7 @@ footer{
 }
 .footer-top{
     text-align: center;
-    margin-left: 0;
+    padding-left: 0px;
 }
 .footer-contant{
     width: 300px;
