@@ -246,15 +246,17 @@ footer{
 }
 .footer-top{
     color: #FFF;
-    margin-left: 235px;
+    padding-left: 235px;
     
 }
 .footer-links{
     
     text-align: center;
+    justify-content: center;
 }
 .footer-links ul{
     display: flex;
+    
     gap: 20px;
 }
 .footer-links ul li{
@@ -358,11 +360,22 @@ footer{
     flex-direction: column;
     width: 100%;
     margin-right: 0;
+
 }
+.footer-top{
+    text-align: center;
+    margin-left: 0;
 }
 .footer-contant{
     width: 300px;
 }
+.footer-links ul{
+    flex-direction: column;
+
+    
+}
+}
+
 
 /* for tablets */
 
@@ -373,18 +386,20 @@ footer{
     .goat{
         position:static;
 
-        max-width: 950px;
+        max-width:;
         padding-top: 40px ;
         padding-bottom: 30px;
-        padding-left:20px ;
-        padding-right: 0;
+        padding-left:0px ;
+        
         
         
 
     }
     .banner-1{
         flex-direction: column-reverse;
-        align-items: center
+        align-items: center;
+        
+        
     }
     #banner-1-img{
         position: static ;
